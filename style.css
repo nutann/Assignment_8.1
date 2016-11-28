@@ -1,0 +1,57 @@
+.container {
+	margin: 20px 20px 20px 20px;
+	height: 500px;
+	width: 100%;
+	position: fixed;
+	background-color: lightgray;
+}
+
+.loginform {
+	height: 200px;
+	width: 400px;
+	background-color: #2d2d65;
+	
+	display: inline-block;
+	vertical-align: bottom;
+}
+.newform {
+	margin-left: 30px;
+	height: 200px;
+	width: 300px;
+	display: inline-block; 
+
+	vertical-align: bottom;
+}
+.textbox
+{
+	border : 1px solid #DC143C;
+	margin-top: 20px;
+	padding-left: 10px;
+	display: block;
+	width: 200px;
+}
+.formcontainer {
+	
+}
+#loginbutton {
+	float : right;
+	margin-top:10px;
+	border : 2px solid yellow; 
+	margin-right:30px;
+	background-color : #2d2d65;
+	color: white;
+	width: 80px;
+	height: 30px;
+
+}
+
+.logintextbox {
+	width: 350px;
+	border-radius: 2px;
+	color: darkgray;
+	display: block;
+	margin-top: 10px;
+	margin-left:10px;
+	padding-left: 5px;
+}
+

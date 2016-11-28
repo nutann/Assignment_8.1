@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+	<h1 style="color : darkblue;margin-left:30px">Enter the system</h1>
+
+	<p style="color : darkgray;margin-left:30px">It is necessary to login in Your account in order to sign up for a course</p>
+
+	<div class = "formcontainer">
+	<form class ="newform">
+		<label>ARE YOU NEW? <span style="color:darkblue">REGISTER</span></label>
+		<input type="text" class="textbox" name="username" value="User name">
+		<input type="Email" class="textbox" name="email" value="Email">
+		<input type="password" class="textbox" name="password" value="password">
+		<input type="password" class="textbox" name="confirm" value="Confirm Password">
+		<button type="submit" form="newform" value="Submit" style="float : right; margin-top : 10px;margin-right:90px;border:2px solid #2d2d65;">Register</button>
+	</form>
+
+	<form class ="loginform">
+		<label style="color : white; margin-top:10px">ARE YOU A STUDENT? LOGIN</label>
+		<input type="text" class= "logintextbox" name="username" value="User name">
+		<input type="password" class= "logintextbox" name="password" value="password">
+		<input type="checkbox" style="margin-left : 10px;margin-top:10px" name="checkbox">
+		<label style="color:white; margin-top:10px">Remember me?</label>
+		<button id = "loginbutton">Login</button><br><br>
+		<p style="float:right; margin-right:30px;color:white; font-size:10px"><u>Forgot Password?</p>
+	</form>
+	</div>
+</div>
+	
+
+</body>
+</html>
